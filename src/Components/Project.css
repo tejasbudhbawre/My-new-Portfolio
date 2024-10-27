@@ -1,0 +1,41 @@
+.projects-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f4f4f9;
+}
+
+.projects-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.major-project, .small-projects {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.major-project h3, .small-projects h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.major-project p, .small-projects p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.small-projects a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.small-projects a:hover {
+  text-decoration: underline;
+}

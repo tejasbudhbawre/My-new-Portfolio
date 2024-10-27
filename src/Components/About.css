@@ -1,0 +1,45 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: row; /* Image and text side by side */
+}
+
+.about-photo {
+  flex: 1 1 40%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.about-text h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  
+}
+
+.about-text {
+  flex: 1 1 60%;
+  font-size: 1.2rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .about-section {
+      flex-direction: column; /* Stack image on top on small screens */
+      text-align: center;
+  }
+
+  .about-photo, .about-text {
+      flex: 1 1 100%; /* Each item takes full width */
+      padding: 10px;
+  }
+}
