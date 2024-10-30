@@ -8,10 +8,17 @@ const Ctf = () => {
             <div className="ctf-text">
                 <h2>CTF Enthusiast</h2>
                 <p>
-                    I'm highly passionate about cybersecurity and love participating in Capture The Flag (CTF) events. 
-                    Recently, I was part of the development team for the EncipherX cybersecurity CTF event at Technex 2024, 
-                    working under the guidance of senior mentors. It was a valuable experience, allowing me to contribute 
-                    to creating challenging problems for participants and enhancing my cybersecurity skills.
+             
+
+
+
+Capture The Flag (CTF) Competitions
+
+I am passionate about participating in Capture The Flag (CTF) competitions, where I enjoy tackling challenges across various domains such as web exploitation, digital forensics, cryptography, reversing, machine pwning, and OSINT (Open Source Intelligence). These competitions not only sharpen my technical skills but also foster critical thinking and problem-solving abilities.
+
+Through CTFs, I engage in real-world scenarios that simulate cybersecurity challenges, allowing me to deepen my understanding of security vulnerabilities and enhance my practical experience. I thrive in the collaborative and competitive environments these events provide, continually striving to improve my capabilities and stay updated with the latest cybersecurity trends.
+
+
                 </p>
             </div>
             <div className="ctf-image">

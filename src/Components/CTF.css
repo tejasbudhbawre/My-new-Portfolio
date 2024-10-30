@@ -5,7 +5,10 @@
     padding: 20px;
     gap: 20px;
     flex-wrap: wrap;
+    background-color: #110927;
+    color: #c2ffd2;
 }
+
 
 .ctf-text {
     flex: 1 1 60%;

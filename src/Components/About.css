@@ -2,10 +2,125 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #110927;
   padding: 20px;
   gap: 20px;
   flex-wrap: wrap;
   flex-direction: row; /* Image and text side by side */
+}
+.profile-role {
+  color: #ffe606;
+}
+/* About.css */
+
+/* Style for the animated h1 */
+.profile-role h1 {
+  font-size: 2.5em; /* Font size for the role */
+  color: #007bff; /* Main color for role titles */
+  margin: 20px 0; /* Margin for spacing */
+  display: inline-block; /* Inline block for animation */
+  animation: fade-in 1s ease-in-out; /* Initial fade-in effect */
+  font-family: 'Arial', sans-serif; /* Replace with your desired font family */
+  font-style: italic; 
+}
+
+/* Animation keyframes for fade-in effect */
+@keyframes fade-in {
+  from {
+      opacity: 0; /* Start invisible */
+      transform: translateY(-20px); /* Move up slightly */
+  }
+  to {
+      opacity: 1; /* End visible */
+      transform: translateY(0); /* Move back to original position */
+  }
+}
+
+/* Optional animation for each role change */
+@keyframes role-change {
+  0% {
+      opacity: 0; /* Start invisible */
+  }
+  50% {
+      opacity: 1; /* Become visible */
+  }
+  100% {
+      opacity: 0; /* Fade out */
+  }
+}
+
+/* To apply the role-change animation, you would need to update the Typical component or manage the animation via state */
+
+h2 {
+  font-size: 2em; /* Larger font for section heading */
+  margin-bottom: 10px; /* Space below heading */
+}
+
+.profile-role h1 {
+  font-size: 2.5em; /* Font size for role */
+  color: #007bff; /* Main color for role titles */
+  margin: 20px 0; /* Margin for spacing */
+}
+
+.profile-tagline {
+  font-size: 1.1em; /* Font size for tagline */
+  color: #555; /* Grey color for tagline */
+  margin-bottom: 20px; /* Space below tagline */
+}
+
+/* Specific styling for the name */
+.highlighted-name {
+  color: #ff4757; /* Color for the name */
+  font-weight: bold; /* Bold font */
+  font-size: 1.8em; /* Larger font size for the name */
+  position: relative; /* Position for animation */
+  display: inline-block; /* Allows margin adjustments */
+  animation: pop 0.6s ease-in-out; /* Animation for the name */
+}
+
+/* Animation keyframes */
+@keyframes pop {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+.profile-tagline{
+  color: #d53a92;
+}
+.about-text {
+  max-width: 600px;
+  color: #c2ffd2; /* Base color for other text */
+}
+
+.about-text h2 {
+  color: #c2ffd2; /* Color for the "About Me" title */
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.about-text h1 {
+  color: #c2ffd2; /* Main text color */
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* Optional: Style <strong> within h1 for emphasis */
+.about-text h1 strong {
+  color: #afbac5; /* Color for the name 'Tejas Budhbawre' */
+  font-weight: bold;
+}
+
+/* Optional: Customize line breaks for readability */
+.about-text p {
+  color: #dedcdc; /* Color for paragraphs, if applicable */
+  font-size: 1em;
+  margin: 10px 0;
 }
 
 .about-photo {
@@ -23,7 +138,7 @@
 .about-text h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  
+
 }
 
 .about-text {

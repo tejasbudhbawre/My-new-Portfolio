@@ -1,7 +1,30 @@
 .experience-section {
     text-align: center;
     padding: 20px;
+    background-color: #110927;
+    
 }
+.experience-section h2{
+    color: #c2ffd2;
+}
+.experience-section p{
+    color: #15d649;
+}
+.experience-details{
+  background-color: white; /* Background color for project boxes */
+  border: 2px solid #3bdc7b; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  margin: 20px; /* Space between boxes */
+}
+.experience-details:hover{
+    background-color: #e26098; /* Light blue background on hover */
+  transform: scale(1.02); /* Slightly enlarge on hover */
+  cursor: pointer; 
+}
+
 
 .certificates-container {
     display: flex;
@@ -10,18 +33,26 @@
     justify-content: center;
 }
 
+
 .certificate-card {
     width: 200px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 8px solid rgb(217, 158, 218);
     padding: 10px;
+    background-color: #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     cursor: pointer;
 }
+.certificate-card:hover{
+    background-color: #ec99bd; /* Light blue background on hover */
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    cursor: pointer; 
+}
 
 .certificate-card:hover {
     transform: scale(1.05);
+    border-radius: 5px solid rgb(115, 25, 178);
 }
 
 .certificate-thumbnail {

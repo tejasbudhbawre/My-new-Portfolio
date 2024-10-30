@@ -1,6 +1,14 @@
 .App {
   text-align: center;
-  background-color: #24194a;
+  position: relative;
+  overflow: hidden;
+  background-color: #110927;
+}
+html {
+  scroll-behavior: smooth;
+}
+.App h1{
+  color: #c2ffd2;
 }
 
 .App-logo {

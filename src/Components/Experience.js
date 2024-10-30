@@ -11,13 +11,13 @@ import cert6 from '../assets/certificates/Software_Development-1.png';
 import cert7 from '../assets/certificates/Software_Development.png'
 
 const certificates = [
-    { id: 1, title: "Certificate 1", image: cert1 },
-    { id: 2, title: "Certificate 2", image: cert2 },
-    { id: 3, title: "Certificate 3", image: cert3 },
-    { id: 4, title: "Certificate 4", image: cert4 },
-    { id: 5, title: "Certificate 5", image: cert5 },
-    { id: 6, title: "Certificate 6", image: cert6 },
-    { id: 7, title: "Certificate 7", image: cert7 },
+    { id: 1, title: "CTF PARTICIPATION CERTIFICATE", image: cert1 },
+    { id: 2, title: "CYBER ETHICS", image: cert2 },
+    { id: 3, title: "COPILOT FOR PRODUCTIVITY", image: cert3 },
+    { id: 4, title: "NPTL (SWAYAM) Certificate", image: cert4 },
+    { id: 5, title: "RESEARCH CONFERENCE", image: cert5 },
+    { id: 6, title: "SOFTWARE DEVELOPMENT", image: cert6 },
+    { id: 7, title: "SOFTWARE DEVELOPMENT", image: cert7 },
 ];
 
 const Experience = () => {
@@ -34,7 +34,18 @@ const Experience = () => {
     return (
         <div className="experience-section">
             <h2>Experience & Certifications</h2>
-            <p>Here are some certifications that showcase my skills in cybersecurity and web development.</p>
+            <p>Experience & Certifications: Showcasing My Professional Journey  In CyberSecurity </p>
+            <div className='experience-details'>
+            <h3>1. CTF Development Team Member at Technex 2024
+            Contributed to the development and management of the EncipherX cybersecurity CTF event at Technex 2024, gaining hands-on experience in organizing and implementing challenging CTF scenarios. Collaborated under the guidance of senior mentors, enhancing my technical knowledge and event management skills.<br/>
+
+                 2. Currently developing the college website, which involves applying advanced web development skills and showcasing the expertise gained throughout my course. This project aims to enhance the online presence and user experience for students and faculty.<br/>
+                
+                3.Management Team Member for Departmental Events
+                Actively participated in the management team for various departmental events. I demonstrated strong organizational skills and the ability to coordinate tasks effectively, ensuring the successful execution of events and fostering a collaborative environment.</h3>
+
+            </div>
+            
             <div className="certificates-container">
                 {certificates.map((cert) => (
                     <div key={cert.id} className="certificate-card" onClick={() => openModal(cert)}>

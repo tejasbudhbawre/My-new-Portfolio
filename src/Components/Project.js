@@ -5,7 +5,9 @@ const Projects = () => {
     return (
         <div className="projects-section">
             <h2>Projects</h2>
+            <h3>Current Endeavors: Professional Projects in Progress</h3>
             <div className="major-project">
+               
                 <h3>Major Project</h3>
                 <p>
                     I am currently working on my college website, a major project that involves advanced web development skills. This website is set to launch soon and will showcase the hard work and expertise gained throughout my course.
