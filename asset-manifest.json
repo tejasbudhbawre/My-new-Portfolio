@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/My-new-portfolio/static/css/main.04f384ad.css",
+    "main.js": "/My-new-portfolio/static/js/main.7225fe73.js",
+    "static/js/453.1407b060.chunk.js": "/My-new-portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Research.png": "/My-new-portfolio/static/media/Research.bde113118de7cf2ae56a.png",
+    "static/media/tejas.png": "/My-new-portfolio/static/media/tejas.da3a5f43f9e952687596.png",
+    "static/media/CTF-1.png": "/My-new-portfolio/static/media/CTF-1.50ea5412e0c31a923f13.png",
+    "static/media/NPTL .png": "/My-new-portfolio/static/media/NPTL .e9ae5a88a23839889aaa.png",
+    "static/media/Software_Development.png": "/My-new-portfolio/static/media/Software_Development.62a8c93d17f638b494bf.png",
+    "static/media/cyber.jpg": "/My-new-portfolio/static/media/cyber.300ad3d467acd8337b3c.jpg",
+    "static/media/Microsoft.png": "/My-new-portfolio/static/media/Microsoft.c5ed2db31dd667c24270.png",
+    "static/media/Software_Development-1.png": "/My-new-portfolio/static/media/Software_Development-1.05c9596c072555a82f0d.png",
+    "index.html": "/My-new-portfolio/index.html",
+    "main.04f384ad.css.map": "/My-new-portfolio/static/css/main.04f384ad.css.map",
+    "main.7225fe73.js.map": "/My-new-portfolio/static/js/main.7225fe73.js.map",
+    "453.1407b060.chunk.js.map": "/My-new-portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04f384ad.css",
+    "static/js/main.7225fe73.js"
+  ]
+}
