@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 .certificate-card:hover{
-    background-color: #ec99bd; /* Light blue background on hover */
+    background-color: #00ffaa; /* Light blue background on hover */
     transform: scale(1.02); /* Slightly enlarge on hover */
     cursor: pointer; 
 }
